@@ -1,0 +1,9 @@
+.mainMyButton{
+    border: 3px solid #CE9E50;
+    color: black;
+    border-radius: 4px;
+    background-color:#CE9E50;
+    font-size:20px;
+    min-width: 60px;
+    cursor: pointer;
+}

@@ -1,14 +1,15 @@
 import React from "react";
+import '../style/MyInput.css'
 
 
-export const MyInput = ({inputVal}) =>{
+export const MyInput = (props) => {
 
-    const valGet = (e) =>{
-        inputVal(e.target.value)
+    const valGet = (e) => {
+        props.inputVal(e.target.value)
     }
-    return(
-        <div className="mainMyInput">
-            <input onChange={valGet}/>
+    return (
+        <div>
+            <input placeholder={props.placeholder} className="mainMyInput" onChange={valGet}/>
         </div>
     )
 }

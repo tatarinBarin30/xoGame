@@ -1,0 +1,12 @@
+
+.mainPlayerTwoUnitField{
+    background-color: #CE9E50;
+    border:2px solid ;
+    border-collapse: collapse;
+    width: 800px;
+    height: 120px;
+}
+.mainPlayerTwoUnitField td{
+    border:3px solid white;
+    text-align: center;
+}
