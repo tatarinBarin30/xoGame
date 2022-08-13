@@ -1,12 +1,17 @@
 
-.mainPlayerTwoUnitField{
+.commonStyle {
     background-color: #CE9E50;
     border:2px solid ;
     border-collapse: collapse;
     width: 800px;
     height: 120px;
 }
-.mainPlayerTwoUnitField td{
-    border:3px solid white;
+.commonStyle td {
     text-align: center;
+}
+.mainPlayerUnitField1{
+    border:3px solid #FA009B;
+}
+.mainPlayerUnitField2{
+    border:3px solid #00FA5F;
 }

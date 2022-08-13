@@ -1,13 +1,13 @@
 import React from "react";
+import {PlayerUnitField} from "./PlayerUnitField";
 import '../style/GamePage.css'
-import {PlayerOneUnitField} from "./PlayerColor/PlayerOneUnitField";
-import {PlayerTwoUnitField} from "./PlayerColor/PlayerTwoUnitField";
+
 
 export const GamePage = () => {
     return (
         <div className="mainGamePage">
             <div>
-                <PlayerOneUnitField/>
+                <PlayerUnitField team = "1"/>
             </div>
             <div className="mainGameField">
                 <table  className="gameField">
@@ -47,7 +47,7 @@ export const GamePage = () => {
                 </table>
             </div>
             <div>
-                <PlayerTwoUnitField/>
+                <PlayerUnitField team = "2"/>
             </div>
         </div>
     )
